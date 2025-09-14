@@ -7,33 +7,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          id="topic"
-          placeholder="Enter a topic for your poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <button type="submit">Generate Poem</button>
-      </form>
-      <div></div>
-    </main>
-    <footer>
-      Coded by Tinashe Senzeko, open-sourced on
-      <a href="https://github.com/malebone20/poem-generator" target="_blank"
-        >Github</a
-      >
-      and hosted on<a
-        href="https://poem-generator-o9rs.onrender.com"
-        target="_blank"
-        >Render</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            id="topic"
+            placeholder="Enter a topic for your poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="input-field"
+          />
+          <button type="submit" class="submit-button">Generate Poem</button>
+        </form>
+        <div class="poem">this is a poem ...</div>
+      </main>
+      <footer>
+        Coded by Tinashe Senzeko, open-sourced on
+        <a href="https://github.com/malebone20/poem-generator" target="_blank"
+          >Github</a
+        >
+        and hosted on<a
+          href="https://poem-generator-o9rs.onrender.com"
+          target="_blank"
+          >Render</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
