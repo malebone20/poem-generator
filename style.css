@@ -29,11 +29,14 @@ main {
   margin-bottom: 30px;
 }
 
-form {
-  padding: 30px;
+.form-container {
   background-color: #cfa8a8;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
   border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
   display: flex;
 }
 
@@ -56,6 +59,13 @@ form {
   cursor: pointer;
   font-size: 15px;
   line-height: 1.5;
+}
+
+.hint {
+  line-height: 1.5;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #522d3a;
 }
 
 .poem {
