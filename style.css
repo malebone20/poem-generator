@@ -70,8 +70,10 @@ form {
 
 .poem {
   font-size: 15px;
+  font-weight: 500;
   background-color: #faefcc;
   padding: 20px;
   line-height: 2;
   border-left: 2px solid #522d3a;
+  color: #522d3a;
 }

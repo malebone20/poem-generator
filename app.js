@@ -28,7 +28,7 @@ function generatePoem(event) {
   )}&key=etc38b7c1eb0ao0943f30198bb3d0e65`;
 
   let poemElement = document.querySelector("#poem");
-  poemElement.innerHTML = `Generating poem about ${instructionsInput.value}...`;
+  poemElement.innerHTML = `✨ Generating poem about ${instructionsInput.value}...`;
 
   axios
     .get(apiUrl)
